@@ -100,7 +100,7 @@ function winGame() {
         let chip = listCell[i].firstChild;
         if ((chip) && (listCell[i].getAttribute("data-number") === chip.innerHTML)) {
             
-			return false;
+		return false;
         }
     }
 	
