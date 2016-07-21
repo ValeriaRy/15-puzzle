@@ -9,7 +9,7 @@ button.addEventListener("click", newGame);
 function newGame() {
     var arr = createNumbersChips();
     createTable(arr);
-	message.innerHTML = "";
+    message.innerHTML = "";
 }
 
 function createTable(arr) {
@@ -85,7 +85,7 @@ function drop(ev) {
         ev.target.appendChild(document.getElementById(data));
         if(winGame()) {
             message.innerHTML = "You win";
-        };
+        }
     }
 }
 
